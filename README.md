@@ -68,12 +68,6 @@ The strongest risk factors were the number of blocked vessels, a reversible defe
 - All patients come from one hospital in 1988, so the model may not generalise to other populations
 - The category codes in this version differ from the original UCI codes and aren't documented, so labels like chest pain types were matched by their counts
 
-## Next steps
-
-- Lower the classification threshold to catch more sick patients
-- Try gradient boosting (e.g. XGBoost)
-- Test on the other UCI hospitals (Hungary, Switzerland, Long Beach)
-
 ## Running it
 
 ```bash
